@@ -445,6 +445,25 @@ export const projects = [
     webapp: "",
   },
   {
+    id: 6,
+    title: "Image Collage Maker",
+    date: "May 2024",
+    description:
+      "A multi-modal image collage maker implemened by CLIP, Segment Anything Model (SAM) and an image inpainting model LaMa",
+    image:
+      "https://segment-anything.com/assets/gallery/AdobeStock_94274587_welsh_corgi_pembroke_CD.jpg",
+    tags: [
+      "Multi-Modal (text & image)",
+      "CLIP",
+      "Image Segmentation",
+      "Image Impainting",
+      "OpenCV",
+    ],
+    category: "Machine Learning",
+    github: "https://github.com/ObsisMc/Image-Collage-Maker",
+    webapp: "",
+  },
+  {
     id: 1,
     title: "Automatic Annotation for 3D Point Cloud",
     date: "Jan 2022",
@@ -479,7 +498,7 @@ export const projects = [
   {
     id: 3,
     title: "Quiz App",
-    date: "Feb 2025",
+    date: "Jan 2025",
     description: "A quiz app with timer implemented by React",
     image:
       "https://github.com/ObsisMc/quiz-app-react/blob/main/src/assets/quiz-logo.png?raw=true",
